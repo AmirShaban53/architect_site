@@ -6,17 +6,19 @@ import Projects from "./components/projects";
 import Awards from "./components/awards";
 import Footer from "./components/footer";
 
+import { motion } from "framer-motion";
+
 function App() {
   return (
-    <main>
+    <motion.main initial="initial" animate="animate">
       <Navbar />
       <Hero />
       <About />
       <Services />
-      <Projects/>
+      <Projects />
       <Awards />
-      <Footer/>
-    </main>
+      <Footer />
+    </motion.main>
   );
 }
 
