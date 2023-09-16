@@ -3,7 +3,12 @@ import { ArrowDownward, South } from "@mui/icons-material";
 import { Container, ContainerFluid } from "./layout";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { aboutArrowVart, aboutImgVart, aboutItemVart, aboutParentVart } from "../animations";
+import {
+  aboutArrowVart,
+  aboutImgVart,
+  aboutItemVart,
+  aboutParentVart,
+} from "../animations";
 
 const About = () => {
   const img1Ref = useRef(null);
@@ -17,7 +22,7 @@ const About = () => {
     ["0%", "50%", "90%"]
   );
   return (
-    <div className="my-16 md:my-32" id='about'>
+    <div className="my-16 md:my-32" id="about">
       <ContainerFluid>
         <div className="grid grid-cols-12 h-[30vh] md:h-[65vh]">
           <div className="col-span-2 col-start-2 relative">
@@ -35,9 +40,9 @@ const About = () => {
             className="col-span-9 h-full overflow-hidden relative"
           >
             <img
-              src="/court.jpg"
+              src="/luke-van-zyl-koH7IVuwRLw-unsplash.webp"
               className="w-full h-full object-cover object-bottom -z-10"
-              alt="skincare product"
+              alt="building with glass finishing"
             />
             <p className="absolute text-white bottom-0 left-0 text-7xl leading-[3.9rem] md:text-[18rem] md:leading-[14rem] outline-4">
               Architect
@@ -52,8 +57,8 @@ const About = () => {
             <motion.div
               variants={aboutParentVart}
               initial="initial"
-              whileInView={'animate'}
-              viewport={{once: true, amount: 0.6}}
+              whileInView={"animate"}
+              viewport={{ once: true, amount: 0.6 }}
               className="md:basis-1/2 md:pr-12 space-y-4 md:space-y-8"
             >
               <motion.p
@@ -84,10 +89,11 @@ const About = () => {
             </motion.div>
             <div className="hidden md:block basis-1/2 relative">
               <div className="absolute w-full aspect-square -top-60">
+                <div className="absolute h-full w-full bg-black/10"></div>
                 <img
-                  src="/court.jpg"
+                  src="/pexels-francisco-valerio-trujillo-1824392.webp"
                   className="w-full h-full object-cover object-bottom -z-10"
-                  alt="skincare product"
+                  alt="white building with concrete finish"
                 />
               </div>
             </div>
