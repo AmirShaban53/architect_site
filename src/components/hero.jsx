@@ -64,10 +64,10 @@ const Hero = () => {
                 </motion.div>
                 <motion.div variants={heroTextVart}>
                   <p className="text-sm md:text-base">
-                    Founded in Copenhagen with offices worldwide,{" "}
-                    <span>Reflex</span> is a studio made up of a highly
+                    Founded in Canda with offices worldwide,{" "}
+                    <span>Darko</span> is a studio made up of a highly
                     specialized team of architects, engineers, designers,
-                    thinkers and doers.
+                    and surveyors.
                   </p>
                 </motion.div>
               </div>

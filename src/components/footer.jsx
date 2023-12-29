@@ -28,19 +28,19 @@ const Footer = () => {
             <div className="flex justify-between mb-8">
               <div className="basis-1/2 md:basis-1/3 text-sm space-y-2">
                 <p className=" text-neutral-500">For Clients</p>
-                <p>+ 32 097 555 7579</p>
-                <p className="text-red-400">jp@reflex.com</p>
+                <p>+ 97 557 7698</p>
+                <p className="text-red-400">info@darkostudio.com</p>
               </div>
               <div className="basis-1/2 md:basis-1/3 text-sm space-y-2">
                 <p className=" text-neutral-500">Office</p>
-                <p>St. Marion Jola 13.</p>
-                <p>Toge, 02000</p>
+                <p>Vancour Canda.</p>
+                <p>Estline, 0200</p>
               </div>
             </div>
             <div className="space-y-2 text-sm">
               <p className=" text-neutral-500">For Contractors</p>
-              <p>+ 32 097 555 75 79</p>
-              <p className="text-red-400">info@reflex.com</p>
+              <p>+ + 97 557 7698</p>
+              <p className="text-red-400">info@darkostudio.com</p>
             </div>
           </div>
         </div>
